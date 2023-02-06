@@ -1,0 +1,29 @@
+.keypad {
+  max-width: 30rem;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: auto;
+}
+
+.fadeInOut {
+  pointer-events: none;
+  font-size: 30rem;
+  color: #FFFFFF;
+  position: absolute;
+  margin: auto;
+  display: flex;
+  inset: 0;
+  opacity: 0;
+  animation: fade 1s linear;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes fade {
+  30% {
+    opacity: 1;
+  }
+}
